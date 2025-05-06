@@ -1,157 +1,101 @@
-const logotext = "JOHN";
+const logotext = "AUSTIN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Austin Burris",
+    description: "I'm Austin Burris, a full-stack software engineer, entrepreneur, and creative based in Dallas.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Austin Burris",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I build full-stack apps",
+        second: "I bring ideas to life with code",
+        third: "I merge creativity and strategy",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description:
+        "I'm a former founder turned full-stack software engineer who blends creative thinking with technical execution. From food discovery platforms to cigar lifestyle brands to interactive web apps, I bring a storyteller’s mindset to everything I build.",
+    your_img_url: "https://avatars.githubusercontent.com/u/17213749?v=4", // Replace with your real avatar if preferred
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about myself",
+    aboutme:
+        "I’m a software engineer, creative entrepreneur, and builder. After founding a nationally recognized food tech brand, I shifted my focus to coding, completing a full-time immersive software engineering program through Fullstack Academy and UT Dallas. Now, I develop modern, full-stack web applications using React, Express, and PostgreSQL — with a sharp eye for product design and user experience.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Founder & Brand Strategist",
+        where: "More Smoke / Cultured King",
+        date: "2021 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Founder / CEO",
+        where: "EatHere",
+        date: "2019 - 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Full-Stack Dev Student",
+        where: "Fullstack Academy x UT Dallas",
+        date: "2025",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "React.js", value: 85 },
+    { name: "JavaScript (ES6+)", value: 85 },
+    { name: "Node.js / Express", value: 80 },
+    { name: "PostgreSQL / Prisma", value: 80 },
+    { name: "HTML/CSS & MUI", value: 90 },
+    { name: "Git / GitHub", value: 80 },
+    { name: "Product Strategy & UX", value: 95 },
+];
+
+const services = [
+    {
+        title: "Full-Stack Web Development",
+        description:
+            "I design and build scalable, modern web apps using React, Express, PostgreSQL, and MUI — from idea to deployment.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "Brand Strategy & Launch",
+        description:
+            "With a deep background in branding and storytelling, I help startups and creators bring new digital experiences to market.",
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "Tech-Enabled Product Consulting",
+        description:
+            "I combine my experience as a founder and engineer to advise on digital product development, user flow, and market fit.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const dataportfolio = [
+    {
+        img: "https://i.imgur.com/BarrelExchangeScreenshot.jpg", // Replace with your actual screenshot
+        description: "Barrel Exchange: A bourbon trading marketplace and capstone project built with React, Express, and PostgreSQL.",
+        link: "https://github.com/19awburris88/barrel-capstone",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/300", // Placeholder
+        description: "BiteRight: A restaurant matchmaker app using swipe interactions and a custom backend — like Tinder for food in Dallas.",
+        link: "https://github.com/19awburris88",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "19awburris88@gmail.com",
+    YOUR_FONE: "(317) 273-9330", // Replace with real phone or leave blank
+    description:
+        "Let’s connect! Whether you're hiring, collaborating, or just want to talk ideas — drop me a message.",
+    YOUR_SERVICE_ID: "service_xxx",
+    YOUR_TEMPLATE_ID: "template_xxx",
+    YOUR_USER_ID: "user_xxx",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/19awburris88",
+    linkedin: "https://www.linkedin.com/in/austin-burris-33995048/",
 };
+
 export {
     meta,
     dataabout,
