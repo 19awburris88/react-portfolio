@@ -72,12 +72,12 @@ const dataportfolio = [
     {
         img: "https://i.imgur.com/BarrelExchangeScreenshot.jpg", // Replace with your actual screenshot
         description: "Barrel Exchange: A bourbon trading marketplace and capstone project built with React, Express, and PostgreSQL.",
-        link: "https://github.com/19awburris88/barrel-capstone",
+        link: "https://github.com/19awburris88/capstone-barrel",
     },
     {
-        img: "https://picsum.photos/400/300", // Placeholder
+        img: "https://photos.app.goo.gl/dMPo4hVdFHD9Scou9", // Placeholder
         description: "BiteRight: A restaurant matchmaker app using swipe interactions and a custom backend — like Tinder for food in Dallas.",
-        link: "https://github.com/19awburris88",
+        link: "https://github.com/19awburris88/biteright",
     },
 ];
 
